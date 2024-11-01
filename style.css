@@ -1,22 +1,22 @@
-/* Reset */
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* Logo */
+
 .logo {
-    width: 150px; /* Increase logo size */
+    width: 150px; 
 }
 
-/* Navbar Customization */
+
 .navbar {
     padding: 1rem 0;
 }
 
 .navbar-nav {
-    gap: 15px; /* Add space between nav items */
+    gap: 15px; 
 }
 
 .navbar-nav .nav-link {
@@ -29,7 +29,7 @@
     font-weight: bold;
 }
 
-/* Hero Section */
+
 .hero {
     height: 100vh;
     background-image: url("images/sf-slider-1.webp");
@@ -38,7 +38,7 @@
     background-repeat: no-repeat;
     color: white;
     position: relative;
-    margin-top: -75px; /* Removes gap between navbar and hero */
+    margin-top: -75px; 
 }
 
 .text-box {
@@ -61,14 +61,14 @@
     margin-top: 15px;
 }
 
-/* Responsive Adjustments */
+
 @media (max-width: 768px) {
     .hero {
         background-size: cover;
     }
 
     .title {
-        font-size: auto;
+        font-size:xX-large;
     }
 
     .rqst-box {

@@ -1,9 +1,8 @@
-
-const hamburger = document.querySelector('.hamburger');
-const mobileMenu = document.querySelector('.mobile-menu');
-
-
-hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('active');
-    mobileMenu.classList.toggle('active');
-});
+function toggleAnswer(questionElement) {
+    const answerElement = questionElement.nextElementSibling;
+    if (answerElement.style.display === "block") {
+        answerElement.style.display = "none";
+    } else {
+        answerElement.style.display = "block";
+    }
+}

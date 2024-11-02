@@ -66,8 +66,38 @@
 .lead{
     font-size: small;
 }
+
+.container-frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .image-frame{
+     height: 350px;
+     width: 350px;
+    border: 10px solid #ebc808;
+    display: flex;
+    align-items: center; /* Yellow border */
+  }
+   .image-frame img{
+    width: 100%;
+    margin-left: -20%;
+   
+   
+  }
+  .custom-hr {
+    margin-left:34%;
+    width: 30%;
+    border-top: 6px solid #ffd901af; /* Replace with your desired color */
+    opacity: 0.75;
+  }
+
+
 .card-container {
-    width: 80%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
  
@@ -78,11 +108,13 @@
     
 }
 .card {
-    width: 350px;
+    width: 300px;
     height: 200px;
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px #ebc808;
+    
 }
 .card-body {
     padding: 15px;

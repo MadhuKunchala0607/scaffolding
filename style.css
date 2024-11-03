@@ -260,6 +260,9 @@ h1 {
         background-size: cover;
         height: 60vh;
     }
+    .rotate-button{
+        margin-left: 90%;
+    }
 
     .rqst-box {
         display: inline-block;

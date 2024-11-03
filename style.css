@@ -5,6 +5,10 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
+
 
 .logo {
     width: 150px; 
@@ -216,7 +220,34 @@ h1 {
     z-index: 3;
       
     }
+    .scroll {
+        opacity: 0; /* Start invisible */
+        transform: translateX(-100px); /* Start position to the left */
+        transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Smooth transition */
+    }
+    
+    .scroll.animate {
+        opacity: 1; /* Fully visible */
+        transform: translateX(0); /* Slide to original position */
+    }
+    
    
+
+    /* Apply animation to the slide-in container */
+    .slide-in {
+        animation: slideInRight 1s ease-out;
+        }
+        .scrollc {
+            opacity: 0; /* Start invisible */
+            transform: translateY(100px); /* Start position below the viewport */
+            transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Smooth transition */
+        }
+        
+        .scrollc.animate {
+            opacity: 1; /* Fully visible */
+            transform: translateY(0); /* Slide to original position */
+        }
+        
 
 
 @media (max-width: 1024px) {
@@ -270,8 +301,8 @@ h1 {
     }
 
     .image-frame {
-        height: 200px;
-        width: 200px;
+        height: 300px;
+        width: 300px;
     }
 
     .card {
@@ -306,8 +337,8 @@ h1 {
     }
 
     .image-frame {
-        height: 150px;
-        width: 150px;
+        height: 250px;
+        width: 250px;
     }
 
     .card {

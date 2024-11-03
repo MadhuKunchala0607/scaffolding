@@ -164,6 +164,43 @@
     margin-top: 5px;
     background: #e9ecef;
   }
+  .container-toll {
+    position: relative;
+    height: 40vh;
+    background-image: url('images/portrait-of-successful-business-team-working-in-office-1024x683.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white; display: grid;
+    align-items: center;
+    padding: 20px;
+}
+
+.container-toll::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8); 
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+/* Ensure content inside .container-toll appears above the overlay */
+.container-lg-toll > * {
+    position: relative;
+    z-index: 2;
+}.container-feedback{
+    height: 40vh;
+    padding: 20px;
+   
+ 
+}
+
 
 
 

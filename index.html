@@ -172,8 +172,8 @@
         
     </div>
     </section>
-    <section id="trollfree">
-        <div class="container">
+    <section id="tollfree">
+        <div class="container-toll bg-primary">
             <div class="text-center">Our Troll Free no</div>
             <div class="display-4 text-center">
                 1300 170 328</div>
@@ -182,10 +182,10 @@
 
     </section>
     <section id="feedback">
-        <div class="container">
+        <div class="container-feedback d-flex flex-column justify-content-center align-items-center center-container">
             <div class="text-center">
                 <div class="display-6">What Our Clients Say’s</div>
-                <p class="lead">We aim to keep you and your business covered and protected from potential business risks,
+                <p class="text-center">We aim to keep you and your business covered and protected from potential business risks,
                     so that you can run your business uninterrupted.</p>
             </div>
             <div class="row">
@@ -202,10 +202,10 @@
     </section>
 
     <section id="contact">
-        <div class="container-fluid d-flex justify-space-around">
-            <div class="row">
+        <div class="container-contact-fluid d-flex justify-space-around"style="background-color:lightgray">
+            <div class="row"style="background-color:lightgray">
                 <div class="col-md-6">
-                    <div class="container-q">
+                    <div class="container-q mb-4"style="background-color:lightgray">
                         <h1>Frequently Asked Questions</h1>
                         <div class="faq">
                             <div class="faq-item">
@@ -229,65 +229,67 @@
                 </div>
                 <div class="col-md-6">
 
-                    <div class="row bg-light" style="padding:30px">
-                        <div class="col-6">
+                    <div class="row mt-2 w-20" style="padding:30px;border:2px solid;background-color:lightgray;width:80%;height:90%">
+                        <div class="col-6 ">
                             <div class="mb-3">
-                                <label for="fullName" class="form-label">Full Name (Required)</label>
-                                <input type="text" class="form-control form-control-sm border" id="fullName" required>
+                                <label for="fullName" class="form-label ">Full Name (Required)</label>
+                                <input type="text" class=" border-dark" id="fullName" required>
                             </div>
                             <div class="mb-3">
                                 <label for="companyName" class="form-label">Company Name</label>
-                                <input type="text" class="form-control form-control-sm border" id="companyName">
+                                <input type="text" class="  border-dark" id="companyName">
                             </div>
                             <div class="mb-3">
-                                <label for="email" class="form-label">Email (Required)</label>
-                                <input type="email" class="form-control form-control-sm border" id="email" required>
+                                <label for="email" class="form-label ">Email (Required)</label>
+                                <input type="email" class=" border-dark" id="email" required>
                             </div>
                             <div class="mb-3">
                                 <label for="contactNumber" class="form-label">Contact Number (Required)</label>
-                                <input type="tel" class="form-control form-control-sm border" id="contactNumber" required>
+                                <input type="tel" class=" border-dark" id="contactNumber" required>
                             </div>
-
-                        </div>
-                        <div class="col-6">
-                            
                             <div class="mb-3">
                                 <label for="coverRequired" class="form-label">How Much Cover Required? (Required)</label>
                                 <select id="coverRequired" class="form-select form-select-sm border" required>
                                     <option selected>Select an amount</option>
                                     <option value="5">$5</option>
                                 </select>
+                            
                             </div>
+
+                        </div>
+                        <div class="col-6">
+                            
                             <div class="mb-3">
                                 <label for="scaffoldingType" class="form-label">Type of Scaffolding Works Conducted (Required)</label>
-                                <select id="scaffoldingType" class="form-select form-select-sm border" required>
+                                <select id="scaffoldingType" class="border-dark" required>
                                     <option selected>Select type</option>
                                     <option value="commercial">Commercial</option>
                                 </select>
                             </div>
                             <div class="mb-3">
                                 <label for="workAtHeights" class="form-label">Is Work Carried Out at Heights Exceeding 10 Meters? (Required)</label>
-                                <select id="workAtHeights" class="form-select form-select-sm border" required>
+                                <select id="workAtHeights" class="border-dark" required>
                                     <option selected>Select option</option>
                                     <option value="yes">Yes</option>
                                 </select>
                             </div>
                             <div class="mb-3">
                                 <label for="insuranceStatus" class="form-label">Do you currently have insurance in place? (Required)</label>
-                                <select id="insuranceStatus" class="form-select form-select-sm border" required>
+                                <select id="insuranceStatus" class="border-dark" required>
                                     <option selected>Select option</option>
                                     <option value="yes">Yes</option>
                                 </select>
                             </div>
 
                         </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
                     </div>
                     
                     
                     
-                    <div class="mb-3">
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -316,11 +318,17 @@
                     <a href="mailto:info@ilinkinsurance.com.au" class="text-white">info@ilinkinsurance.com.au</a></p>
                 </div>
             </div>
-            <div class="text-center mt-4 bg-primary">
-                <p>&copy; 2024 ILink Insurance. All rights reserved.</p>
-            </div>
+            
         </div>
+        
+        </div>
+        
     </footer>
+    <div class="w-100 text-center p-3 align-items-center justify-content-center" 
+     style="background-color: #ebc808; height: 6vh; bottom: 0; left: 0;">
+    <p>&copy; 2024 ILink Insurance. All rights reserved.</p>
+</div>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 <script src="script.js"></script>

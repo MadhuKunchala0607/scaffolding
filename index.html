@@ -41,7 +41,21 @@
             <h1 class="title">SCAFFOLDING <br><span class="highlight">INSURANCE</span></h1>
             <p class="subtitle">Public & Products Liability Insurance For Scaffolding Contractors</p>
         </div>
+     
+        <button type="submit" class="rotate-button">
+           <a href="#contact" style="text-decoration:none;color:black">Request a Quote</a> 
+          </button>
+
+      
+       
+      
+           
+        
+        
+        
+
     </div>
+    
     <section id="section2"style="background-color:#f8f9fa">
         <div class="container-lg bg-light">
             <div class="row justify-content-center">
@@ -58,7 +72,7 @@
             </div>
 
             <div class="row justify-content-start">
-                <div class="col-6">
+                <div class="col-md-8 col-lg-6 col-sm-12 p-4">
                     <div class="co-md-6">
                         <h1 class=" mt-5" style="font-weight:bolder;">A wide range of insurance cover to choose</h1>
                         <hr class="custom-hr">
@@ -83,7 +97,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-8 col-lg-6 col-sm-12 p-4">
                     <div class="container-frame">
                         <div class="image-frame">
                           <img src="https://scaffoldinginsurance.com.au/wp-content/uploads/2021/08/portrait-of-successful-business-team-working-in-office-768x512.jpg" alt="Your Image">
@@ -175,7 +189,7 @@
     <section id="tollfree">
         <div class="container-toll bg-primary">
             <div class="text-center">Our Troll Free no</div>
-            <div class="display-4 text-center">
+            <div class="display-4 text-center"style="color:#ebc808">
                 1300 170 328</div>
                 <div class="text-center">We are just a call away, here to help you</div>
         </div>
@@ -229,62 +243,69 @@
                 </div>
                 <div class="col-md-6">
 
-                    <div class="row mt-2 w-20" style="padding:30px;border:2px solid;background-color:lightgray;width:80%;height:90%">
-                        <div class="col-6 ">
-                            <div class="mb-3">
-                                <label for="fullName" class="form-label ">Full Name (Required)</label>
-                                <input type="text" class=" border-dark" id="fullName" required>
+                    <div class="container">
+                        <div class="row mt-2 justify-content-center">
+                            <div class="col-md-8 col-lg-6 col-sm-12 p-4 "style="width:90%;background-color:lightgray;border:3px solid">
+                                <div class="row"style="background-color:lightgray;border">
+                                    <!-- Left Column -->
+                                    <div class="col-12 col-md-6">
+                                        <div class="mb-3">
+                                            <label for="fullName" class="form-label">Full Name (Required)</label>
+                                            <input type="text" class="form-control border-dark" id="fullName" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="companyName" class="form-label">Company Name</label>
+                                            <input type="text" class="form-control border-dark" id="companyName">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">Email (Required)</label>
+                                            <input type="email" class="form-control border-dark" id="email" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="contactNumber" class="form-label">Contact Number (Required)</label>
+                                            <input type="tel" class="form-control border-dark" id="contactNumber" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="coverRequired" class="form-label">How Much Cover Required? (Required)</label>
+                                            <select id="coverRequired" class="form-select border-dark" required>
+                                                <option selected>Select an amount</option>
+                                                <option value="5">$5</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!-- Right Column -->
+                                    <div class="col-12 col-md-6">
+                                        <div class="mb-3">
+                                            <label for="scaffoldingType" class="form-label">Type of Scaffolding Works Conducted (Required)</label>
+                                            <select id="scaffoldingType" class="form-select border-dark" required>
+                                                <option selected>Select type</option>
+                                                <option value="commercial">Commercial</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="workAtHeights" class="form-label">Is Work Carried Out at Heights Exceeding 10 Meters? (Required)</label>
+                                            <select id="workAtHeights" class="form-select border-dark" required>
+                                                <option selected>Select option</option>
+                                                <option value="yes">Yes</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="insuranceStatus" class="form-label">Do you currently have insurance in place? (Required)</label>
+                                            <select id="insuranceStatus" class="form-select border-dark" required>
+                                                <option selected>Select option</option>
+                                                <option value="yes">Yes</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <button type="submit" class="btn"style="background-color:#ebc808">Submit</button>
+                                </div>
                             </div>
-                            <div class="mb-3">
-                                <label for="companyName" class="form-label">Company Name</label>
-                                <input type="text" class="  border-dark" id="companyName">
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label ">Email (Required)</label>
-                                <input type="email" class=" border-dark" id="email" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="contactNumber" class="form-label">Contact Number (Required)</label>
-                                <input type="tel" class=" border-dark" id="contactNumber" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="coverRequired" class="form-label">How Much Cover Required? (Required)</label>
-                                <select id="coverRequired" class="form-select form-select-sm border" required>
-                                    <option selected>Select an amount</option>
-                                    <option value="5">$5</option>
-                                </select>
-                            
-                            </div>
-
                         </div>
-                        <div class="col-6">
-                            
-                            <div class="mb-3">
-                                <label for="scaffoldingType" class="form-label">Type of Scaffolding Works Conducted (Required)</label>
-                                <select id="scaffoldingType" class="border-dark" required>
-                                    <option selected>Select type</option>
-                                    <option value="commercial">Commercial</option>
-                                </select>
-                            </div>
-                            <div class="mb-3">
-                                <label for="workAtHeights" class="form-label">Is Work Carried Out at Heights Exceeding 10 Meters? (Required)</label>
-                                <select id="workAtHeights" class="border-dark" required>
-                                    <option selected>Select option</option>
-                                    <option value="yes">Yes</option>
-                                </select>
-                            </div>
-                            <div class="mb-3">
-                                <label for="insuranceStatus" class="form-label">Do you currently have insurance in place? (Required)</label>
-                                <select id="insuranceStatus" class="border-dark" required>
-                                    <option selected>Select option</option>
-                                    <option value="yes">Yes</option>
-                                </select>
-                            </div>
-
-                        </div>
-                        <div class="mb-3">
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </div>
+                    </div>
+                    
+                        
                     </div>
                     
                     
@@ -294,21 +315,21 @@
             </div>
         </div>
     </section>
-    <footer class="bg-dark text-white pt-4 pb-2">
+    <footer class=" text-white pt-4 pb-2 fs-6"style="background-color:black">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
                     <img src="https://scaffoldinginsurance.com.au/wp-content/uploads/elementor/thumbs/Scafffolding-insurance-logo_white-1-q3lukdpoy53bvs2dhxsufk9py5xcle5hgz32tgasu4.png" alt="Company Logo" class="img-fluid mb-3">
                     <p>We help you source the most appropriate plant, equipment and machinery finance for your business with financial solutions and advice that add to your business growth.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 fs-6">
                     <h5>Useful Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Privacy Policy</a></li>
-                        <li><a href="#" class="text-white">Complaints & Disputes Handling Policy</a></li>
-                        <li><a href="#" class="text-white">Insurance Broker Code Of Practice</a></li>
-                        <li><a href="#" class="text-white">Financial Services Guide</a></li>
-                    </ul>
+                 
+                        <li><a href="#" class="text-white"style="text-decoration:none">Privacy Policy</a></li>
+                        <li><a href="#" class="text-white"style="text-decoration:none">Complaints & Disputes Handling Policy</a></li>
+                        <li><a href="#" class="text-white"style="text-decoration:none">Insurance Broker Code Of Practice</a></li>
+                        <li><a href="#" class="text-white"style="text-decoration:none">Financial Services Guide</a></li>
+                    
                 </div>
                 <div class="col-md-4">
                     <h5>Address</h5>
